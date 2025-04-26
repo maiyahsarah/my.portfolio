@@ -1,0 +1,116 @@
+.top-container{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px; /* this is what is causing the cloud to move */
+    height: 80px;
+    width: 150px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    height: 80px;
+    width: 150px;
+}
+
+.mountain{
+    position: absolute;
+    height: 357px;
+    width: 598px;
+    top: 370px;
+}
+.title-text h1{
+    font-family: "Sacramento", cursive;
+    font-size: 90px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.title-text h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 33.2px 0px 33.2px 0px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.profile{
+    border-radius: 50%;
+}
+.hello h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.underhello p{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+hr.line {
+    
+    margin: 80px auto;
+    border-top: 10px dotted red;
+    width: 10%;
+}
+.skill_section h1{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+.subtitle{
+    font-family: "Montserrat", sans-serif;
+}
+.lead{
+    font-family: "Merriweather", serif;
+}
+.contact-me h1{
+    color: #66bfbf;
+}
+.custom-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #19dede; /* coffee color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .custom-btn:hover {
+    background-color: #007d7d;
+  }
+  .footer{
+    background-color: #66bfbf;
+    
+  }
+  .footer p {
+    color: white; /* paragraph text color */
+  }
+  
+  .footer a {
+    color: #158a8a; /* link color (blueish) */
+  }
+  
+  /* Optional: make link color stay blue even after clicking */
+  .footer a:hover {
+    color: #276b69; /* slightly different blue when hover */
+  }
